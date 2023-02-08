@@ -13,6 +13,8 @@ const containerStyles = {
 
 const headerStyles = {
   color: 'white',
+  fontSize: '30px',
+  background: 'black'
 }
 
 export default function Home() {
@@ -32,7 +34,7 @@ export default function Home() {
         </p>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
